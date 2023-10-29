@@ -1,0 +1,139 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* body {
+color:black;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background:#EEE;
+} */
+
+* {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-feature-settings: "clig" off, "liga" off;
+}
+
+.product-back{
+  background: linear-gradient(0deg, #FFF 0%, #FFF 100%), lightgray 50% / cover no-repeat;
+}
+
+.edibles-back{
+  border-radius: 30px;
+  background: linear-gradient(84deg, #FFDAC0 4.7%, rgba(255, 218, 192, 0.00) 110.33%, rgba(255, 218, 192, 0.38) 110.33%);
+  /* width: 620px; */
+  height: 240px;
+}
+
+.shadow{
+  /* box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0), 15px 0px 15px 0px #EEE, 0px 15px 0px 15px #EEE; */
+  box-shadow: 0px 0px 5px 16px rgba(150, 150, 150, 0.1);
+}
+
+.product-shadow{
+  box-shadow: -3px -6px 5px 0px rgba(0,0,0,0.01);
+}
+
+.home-body {
+  color:black;
+  background:#EEE;
+  }
+  .card{
+    border-radius: 20px;
+    opacity: 0.83;
+    background: linear-gradient(84deg, #F47820 -16.06%, rgba(251, 224, 205, 0.22) 186.4%, rgba(253, 253, 253, 0.00) 293.18%);
+  
+    backdrop-filter: blur(2px);
+  }
+  .main {
+    background-image:url("../../public/assets/rectangle12.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    height:650px;
+    background-size:750px;
+  }
+  .pop{
+    background:white;
+    width:550px;
+  
+    padding:20px;
+    margin-top:80px;
+    border:5px solid transparent;
+  
+  }
+  .pop span{
+    color:#F47820
+  }
+  .idk{
+    background:linear-gradient(76deg, #000 15.12%, rgba(244, 120, 32, 0.00) 271.94%);
+  
+  }
+  
+  .div-back{
+    background-image: url("../../public/assets/bg.svg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+  }
+  .rec{
+    background-image:url("../../public/assets/Rectangle 10.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    width:250px;
+    height:250px;
+    padding:30px;
+    color:white;
+    border-radius:20px;
+  
+  }
+  .carousel{
+    background:white;
+    /* margin:30px auto; */
+    border-radius:10px;
+    grid-row: span 3;
+  }
+  .carousel div{
+   background:#FFDAC0;
+   color:  #F47820;
+   width: 160px;
+   border-radius: 10px;
+   font-size: 13px;
+   /* background: #FFF; */
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.03);
+  background: #FFDAC0;
+  /* box-shadow: 0px 4px 7px 13px rgba(0, 0, 0, 0.10); */
+  height:200px;
+  margin:25px 0px;
+  }
+  
+  .carousel Image{
+    border-radius:30px;
+    width: 80%;
+  }
+  
+  .hero{
+    background-image: url("../../public/assets/banner-bg.png");
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    height: 100vh;
+    background-size: cover;
+  }
+  
